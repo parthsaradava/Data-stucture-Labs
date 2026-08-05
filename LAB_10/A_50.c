@@ -60,6 +60,7 @@ void swap_node()
 
         prev = temp;
 
+        
         temp = temp->link;
 
         if (temp != NULL)

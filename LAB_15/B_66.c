@@ -37,6 +37,7 @@ char peek()
         return '\0';
     return top->info;
 }
+
 int input_precedence(char ch)
 {
     switch (ch)
