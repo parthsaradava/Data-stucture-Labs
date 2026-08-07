@@ -1,4 +1,4 @@
-
+#include<math.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include<stdlib.h>
@@ -93,7 +93,7 @@ void evalution_postfix(char postfix[])
                 break;
 
                 case '^':
-                result = (int)pow(operand1 , operand2);
+                result = (int)pow(operand1,operand2);
                 break;
 
                 default:
